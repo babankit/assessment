@@ -153,16 +153,12 @@ This has been done at 2 levels :
 
 
 ## Proposals
- - DBT
- - Permifrost
-
-## Running the tests
-
-Explain how to run the automated tests for this system
+ - DBT/SqlMesh: Since the usecase is eventually about compiling logic in a SQL, a metadata management layer might help.
+ - Permifrost: It is very nice for managing RBAC for snowflake
 
 ### And coding style tests
 
-Explain what these tests test and why
+Formatters Used
 
 ```
 python: [black](https://pypi.org/project/black/) 
